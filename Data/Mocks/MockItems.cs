@@ -10,6 +10,7 @@ namespace pr37savichev.Data.Mocks
     public class MockItems : IItems
     {
         public ICategories _category = new MockCategories();
+
         public IEnumerable<Items> AllItems
         {
             get

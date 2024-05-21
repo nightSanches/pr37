@@ -9,6 +9,7 @@ namespace pr37savichev.Data.Mocks
 {
     public class MockCategories : ICategories
     {
+
         public IEnumerable<Categories> AllCategories
         {
             get
