@@ -20,7 +20,6 @@ namespace pr37savichev
         {
             services.AddTransient<ICategories, MockCategories>();
             services.AddTransient<IItems, MockItems>();
-
             services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
